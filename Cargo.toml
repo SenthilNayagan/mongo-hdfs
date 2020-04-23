@@ -1,0 +1,11 @@
+[package]
+name = "mongo-hdfs"
+version = "0.1.0"
+authors = ["Senthil Nayagan <senthil.nayagan@gmail.com>"]
+description = "Ingests MongoDB collections into HDFS"
+readme = "README.md"
+publish = false
+
+[dependencies]
+mongodb = "0.9.2"
+bson = "0.14.0"
